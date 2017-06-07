@@ -1,0 +1,7 @@
+---
+name: install and start apache
+hosts: all
+
+tasks:
+- name: install httpd
+  yum: name=httpd state=latest
