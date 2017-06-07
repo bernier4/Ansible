@@ -1,5 +1,6 @@
 ---
 - name: configure name servers with VRF support
+  hosts: all
   nxos_system:
     name_servers:
       - { server: 8.8.8.8, vrf: mgmt }
