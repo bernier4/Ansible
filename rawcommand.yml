@@ -1,0 +1,3 @@
+---
+- name: test of raw ssh dirty command
+  raw: mkdir ANSIBLE test
