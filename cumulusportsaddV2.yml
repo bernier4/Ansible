@@ -1,0 +1,12 @@
+---
+
+- name: Add two interfaces without committing any changes
+  hosts: all
+  
+  tasks:
+  
+  - name: add ports
+    nclu:
+      commands:
+        - add int swp5
+        - add int swp6
