@@ -5,6 +5,7 @@
   
   tasks:
   
+  - name: add ports
     nclu:
       commands:
         - add int swp3
