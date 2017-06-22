@@ -10,3 +10,4 @@
       commands:
         - add int swp5
         - add int swp6
+        commit: true
